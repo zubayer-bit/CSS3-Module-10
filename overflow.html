@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            border: 3px solid darkgreen;
+            height: 300px;
+            /* overflow: scroll; */
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        /* #box-1{
+            overflow: scroll;
+            overflow: auto;
+            overflow-x: hidden;
+        } */
+
+        .ellipsis{
+            width: 100px;
+            white-space: nowrap;
+            /* overflow:hidden dile line ar likh ta dur porjonto show hobe...ar pore rr show hobe na,bordar dile buja jabe bisoy ta */
+            overflow: hidden; 
+            border: 2px solid fuchsia;
+            /* text-overflow:ellipsis dile akhane je aro likha ace ta tot tot kore show korbe */
+            text-overflow: ellipsis;
+            /* text-overflow: clip; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <p> ar moddhe ki ace seta mouse nile show korar jonno <p> ar moddhe <title> tag dea tar moddhe likha ta dea dibo -->
+        <p title="i am a serious learner. i am investing at least 6-8hours at every day.dfjpodjfdjpfjsdpofjdpjfpodjfpodjpfjsdpojno gap at all" class="ellipsis">i am a serious learner. i am investing at least 6-8hours at every day.dfjpodjfdjpfjsdpofjdpjfpodjfpodjpfjsdpojno gap at all</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My text box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, reiciendis minima eveniet corrupti nostrum perferendis obcaecati excepturi necessitatibus ut? Reiciendis deleniti quaerat dolore debitis rem impedit officia perferendis libero saepe vero at perspiciatis facilis, sequi quibusdam. Saepe rerum aspernatur totam repellat enim repellendus, voluptatum aut dolores sit assumenda obcaecati autem consectetur nemo tenetur molestiae dignissimos voluptatibus suscipit? Distinctio necessitatibus maxime obcaecati neque consectetur eum, animi temporibus perspiciatis error reiciendis, magnam voluptatem rerum et. Quis inventore expedita consectetur tempora reiciendis eaque optio quia ratione quisquam pariatur aspernatur delectus, totam non quo temporibus doloribus sunt nulla culpa a. Consequuntur, qui explicabo, reprehenderit magnam quidem non optio sint illum odio delectus eveniet, officiis dolorum. Harum officiis voluptates sunt similique, tenetur ullam neque aspernatur? Suscipit excepturi nemo pariatur voluptatem vel ipsam dolores possimus. Voluptatum sequi ipsa odio vero asperiores nisi aperiam doloremque atque dolorem numquam! Ipsam eligendi voluptates blanditiis natus. Assumenda numquam laudantium perferendis perspiciatis sint doloremque reprehenderit aperiam distinctio fugiat cumque possimus eos a eveniet nulla, vel dicta maiores mollitia minima ex alias velit? Quaerat corporis hic voluptatibus, error adipisci eum impedit, enim labore sunt unde nulla tempore voluptatem magni? Dolore reprehenderit neque, aspernatur alias ducimus nisi laudantium tenetur fugiat in nulla repellat.</p>
+        </div>
+        <div class="box">
+            <h3>My text box 2</h3>
+            <p>Tempore soluta eligendi dolorem sequi dolorum et consequuntur perferendis facilis voluptate reprehenderit exercitationem, delectus quis blanditiis eaque fuga! Asperiores quaerat vel, possimus corporis fuga enim vitae consequuntur suscipit, fugiat officiis ipsum doloribus sit, odit cupiditate. Magni praesentium dolorum alias unde hic necessitatibus quidem cum! Dolorum excepturi mollitia quia ipsa nisi fuga impedit, quidem in praesentium officia eum quis eius quo aut quas! Veritatis minima debitis, quisquam et ipsa inventore quibusdam dolore minus impedit. Neque in, iusto exercitationem numquam necessitatibus maxime sed praesentium ducimus qui omnis magnam labore enim facere totam laudantium dolore pariatur expedita quidem repellendus adipisci inventore tenetur quam? Possimus blanditiis ducimus reprehenderit. Laborum odit quasi, iure hic debitis, sapiente dolores ea facere commodi inventore repudiandae impedit quas doloribus dolore veritatis? Cumque distinctio aspernatur rem maiores nam dignissimos odit exercitationem placeat fuga, velit deleniti consectetur magnam sed explicabo quam soluta! Minima accusamus perspiciatis omnis asperiores est deserunt doloribus distinctio, maiores rem pariatur rerum saepe. Repudiandae ducimus commodi sed, tenetur quis dignissimos impedit sunt, fugit blanditiis neque ea exercitationem ipsam voluptatem consequatur a rem. Suscipit minima sit deleniti, temporibus adipisci qui assumenda, unde illo nostrum eius soluta delectus reiciendis maxime ex quam magnam eveniet corrupti exercitationem modi ipsum iusto incidunt?</p>
+        </div>
+        <div class="box">
+            <h3>text box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda voluptatem, magnam cupiditate veniam voluptas repellendus aspernatur repellat, perspiciatis sapiente nostrum molestiae dolore ad libero. Mollitia quia laboriosam rem reiciendis.</p>
+        </div>
+    </section>
+</body>
+</html>
